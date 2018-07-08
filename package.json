@@ -1,0 +1,31 @@
+{
+  "name": "ebike-token",
+  "version": "0.1.0",
+  "description": "Ebike Ethereum smart contract for Private Sale.",
+  "scripts": {
+    "test": "truffle.cmd test ./test/EbikePrivateSale.test.js",
+    "testrpc": "bash scripts/testrpc.sh",
+    "test-ci": "bash scripts/test.sh"
+  },
+  "keywords": [
+    "Ethereum",
+    "Smart",
+    "Contract",
+    "Block",
+    "chain"
+  ],
+  "author": "pagal <bibash1270@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.1.5",
+    "solidity-coverage": "^0.5.5",
+    "zeppelin-solidity": "1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.0",
+    "dotenv": "^5.0.1",
+    "truffle-hdwallet-provider": "0.0.3"
+  }
+}
